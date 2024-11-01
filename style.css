@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: poppins-black;
+    src: url(./fontes/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family: poppins-regular;
+    src: url(./fontes/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins-medium;
+    src: url(./fontes/Poppins-Medium.ttf);
+}
+
+.novidades{
+    background-color: #ffffff;
+    font-family: "poppins-black";
+    margin-top: 15px;
+    margin-left: 120px;
+    font-size: 25px;
+    
+    
+}
+
+.imagens1{
+    background-color: #ffffff;
+}
+
+.promocao{
+    /* background-color: #e6c744;   */
+}
+
+.roupas{
+    font-family: "poppins-medium";
+}
+
+.ex{
+    font-family: "poppins-regular";
+    color: #c2c8da;
+}
+
+.h2promocao{
+    font-family: "poppins-black";
+    text-align: right;
+    font-size: 50px;
+    margin-right: 200px;
+    
+}
+
+.textobf{
+    font-family: "poppins-medium";
+    text-align: right;
+    line-height: 2; 
+    font-size: 25px;
+    margin-right: 200px;
+}
+
+.textonov{
+    font-family: "poppins-black";
+    text-align: right;
+    font-size: 20px;
+    margin-right: 160px;
+}
+
+.termos{
+    font-family: "poppins-regular";
+    text-align: right;
+    font-size: 10px;
+    margin-right: 319px;
+}
+
+button{
+    font-family: "poppins-medium";
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0% 0% 0% 60%;
+    font-size: 30px;
+    border: none;
+   
+    
+}
+
+.imgroupas{
+    border-radius: 15px;
+    height: 500px;
+    width: 340px;
+    
+}
+
+figure{  
+    display: inline-block;
+    margin: 20px;
+    text-align: left;
+    flex-direction: column;
+    
+}
+
+#fotos{
+    text-align: center;
+}
+
+.mulhersorrindo{
+    position: absolute; 
+    
+}
+
+.amarelo{ 
+    background-color: #e6c744; 
+}
+
